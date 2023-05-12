@@ -1,0 +1,16 @@
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mat-form-field {
+  margin-right: 20px;
+}
+
+.b1 {
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+<mat-toolbar class="menu-bar">
+    <span class="title">Sedabavi Nutrition Plan</span> 
+    <ul>
+      <li><a (click)="home()">Home</a></li>
+      <li><a (click)="dietplan()" >Dietplan</a></li>
+      <li><a (click)="create()">Create</a></li>
+      <li><a (click)="forum()">Forum</a></li>
+      <li><a (click)="testimonials()">Testimonials</a></li>
+      <li><a (click)="reachus()">Reachus</a></li>
+    </ul>
+    <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+    <!-- routerLink="/Dietplan" -->
+    <span [style.marginLeft]="'100px'" [style.color]="'white'">
+      <select [(ngModel)]="lang" (change)="changeLang()">
+         <option *ngFor="let x of languages" value={{x.value}}>
+           {{x.name}}</option>
+      </select>
+   </span>
+  </mat-toolbar>
+<router-outlet></router-outlet>
+

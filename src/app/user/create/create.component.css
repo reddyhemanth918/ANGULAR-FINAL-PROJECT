@@ -1,0 +1,49 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .head, .down {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  .head h1, .down h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .drag-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .total-quantity {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

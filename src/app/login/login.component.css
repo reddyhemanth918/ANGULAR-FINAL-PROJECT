@@ -1,0 +1,58 @@
+
+#login-card {
+   background: linear-gradient(to bottom, #DB4437, #4285F4, #F4B400,#0F9D58);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+#log-table {
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+}
+
+#log-table th {
+  font-weight: normal;
+  padding: 10px 0;
+  text-align: left;
+  width: 30%;
+}
+
+#log-table td {
+  padding: 10px 0;
+}
+
+#log-table input[type=text], #log-table input[type=password] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  width: 70%;
+}
+
+#log-table button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+#log-table button:hover {
+  background-color: #3e8e41;
+}
+
+.loading {
+  margin-top: 20px;
+}
+
+.errors {
+  color: red;
+  margin-top: 20px;
+}
